@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beeslicee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="beeslicee.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand i"><img src="./logo.png" alt="beeslicee" class="logo"></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#beenav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="beenav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="brewguide.html">Brew guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#oc">Register</a></li>
+                    <div class="offcanvas offcanvas-start w-25" id="oc">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title">Register with us!</div>
+                            <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="name" placeholder="uname">
+                                    <label for="uname" class="form-label">Username</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="mail" placeholder="name@email.com">
+                                    <label for="mail" class="form-label">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="pass" placeholder="password">
+                                    <label for="pass" class="form-label">Password</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="date" class="form-control" id="dob" placeholder="dateofbirth">
+                                    <label for="pass" class="form-label">Date of birth</label>
+                                </div>
+                                <div class="mb-2">
+                                    <p class="form-text text-align-justify">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#" class="text-dark text-decoration-none">privacy policy</a>.</p>
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn btn-outline-light text-dark w-100">Sign up</button>
+                                </div>
+                                <div class="mb-2 justify-content-center">
+                                    <p class="form-text">Already registered!&nbsp;<a href="login.html" class="text-dark text-decoration-none">Log in</a></p>
+                                </div>              
+                            </form>
+                        </div>
+                    </div>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&#8377 0.0</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- home page -->
+    <!-- new arrivals -->
+    <div class="container-fluid mt-3 mb-3">
+        <h2 class="text d-flex justify-content-center mb-3">New Arrivals</h2>
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2025/08/harley-robusta-scaled-750x563.png" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Harley Estate (Robusta)</h5>
+                    <p class="card-text">&#8377 350 - &#8377 1200</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2025/08/CT-Estate-scaled-750x563.png" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">C & T Estate</h5>
+                    <p class="card-text">&#8377 650 - &#8377 2400</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2025/08/salwara-estate-1-scaled-750x563.png" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Salawara Estate</h5>
+                    <p class="card-text">&#8377 650 - &#8377 2400</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2025/08/Unakki-Estate-dark-honey-scaled-750x563.png" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Unakki Estate (Dark Honey)</h5>
+                    <p class="card-text">&#8377 650 - &#8377 2400</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best seller -->
+    <div class="container-fluid mt-3 mb-3">
+        <h2 class="text d-flex justify-content-center mb-3">Best seller</h2>
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/11/Baarbara-Estate-scaled-750x563.jpg" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Baarbara Estate</h5>
+                    <p class="card-text">&#8377 650 - &#8377 2400</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/Cold-Brew-Blend-750x563.jpeg" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Cold Brew Blend</h5>
+                    <p class="card-text">&#8377 550 - &#8377 2000</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/Espresso-Milk-Blend-750x563.jpeg" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Espreeso Milk Blend</h5>
+                    <p class="card-text">&#8377 525 - &#8377 2000</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="col-sm-3 card" style="width: 18rem;">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/11/Harley-Estate-scaled-750x563.jpg" class="card-img-top mt-3 rounded">
+                    <h5 class="card-title">Harley Estate</h5>
+                    <p class="card-text">&#8377 650 - &#8377 2400</p>
+                    <button class="btn btn-outline-light mb-3"><a href="#" class="text-dark text-decoration-none">Select option</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- why beeslicee -->
+    <div class="container-fluid mt-3 mb-3">
+        <h2 class="text d-flex justify-content-center mt-3 mb-3">Why beeslicee?</h2>
+        <div class="container">
+            <div class="row mt-2 mb-2">
+                <div class="col-sm-4" align="center">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/usp1-150x150.avif" class="whybee mt-3 mb-3">
+                    <h3 class="text mb-3">INDIA'S FINEST COFFEES</h3>
+                    <p class="text mb-3">We brew only India's finest coffee beans available. All our coffees have been awarded a score of 80 and above.</p>
+                </div>
+                <div class="col-sm-4" align="center">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/usp2.avif" class="whybee mt-3 mb-3">
+                    <h3 class="text mb-3">ROASTED FRESH</h3>
+                    <p class="text mb-3">We brew only freshly roasted beans. Our beans are roasted under expert supervision and care using state-of-the-art equipment in our own Roasting units.</p>
+                </div>
+                <div class="col-sm-4" align="center">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/usp3.avif" class="whybee mt-3 mb-3">
+                    <h3 class="text mb-3">RESPONSIBLY SOURCED</h3>
+                    <p class="text mb-3">We practice Responsible and Ethical sourcing of beans. This helps us preserve the environment, and keep the quality of coffee beans intact.</p>
+                </div>
+            </div>
+        </div>
+        <!-- brewing guide -->
+        <h2 class="text d-flex justify-content-center mt-3 mb-3">BREWING GUIDE</h2><br>
+        <div class="container-fluid" align="center">
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/enTLzQiRp50?si=U8saOnhEyayED836" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- featured in -->
+        <h2 class="text d-flex justify-content-center mt-3 mb-3">FEATURED IN</h2><br>
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center" align="center">
+                <div class="col-sm-12">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/New_Project_18.avif" class="featin d-flex align-items-center">
+                </div><br><br>
+                <h3 class="text"><a href="#" class="text-dark text-decoration-none">Beeslicee Coffee House is taking Indian speciality coffee global with Finland launch</a></h3><br>
+                <p class="text">In December 2023, Beeslicee Coffee House became the first ever Indian coffee chain to open an outlet in Europe. With regular pop-ups hosted and scheduled until March-end, setting the stage for its grand inauguration in Helsinki, Finland, the Indian speciality coffee roaster wants to put Indian coffee on the global map.</p>
+            </div><br>
+            <div class="row d-flex flex-column justify-content-center" align="center">
+                <div class="col-sm-12">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/channels4_banner-560x92.jpg" class="d-flex align-items-center" width="400px" height="100px">
+                </div><br><br>
+                <h3 class="text"><a href="#" class="text-dark text-decoration-none">India's Beeslicee Coffee House to open first international store in Finland</a></h3><br>
+                <p class="text">The specialty coffee roaster will become the first Indian coffee chain to enter the Nordic branded coffee shop market with its Helsinki debut in March 2024. Beeslicee Coffee House will open its first international outlet in Finland in March 2024 - becoming the first Indian coffee chain to launch in the Nordic and only the second to do so in Europe.</p>
+            </div><br>
+            <div class="row d-flex flex-column justify-content-center" align="center">
+                <div class="col-sm-12">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/ad-logo-2.png" class="featin d-flex align-items-center">
+                </div><br><br>
+                <h3 class="text"><a href="#" class="text-dark text-decoration-none">How Beeslicee Coffee Houses are redefining the aesthetics and purpose of cafes in India</a></h3><br>
+                <p class="text">Viewed as cultural nodes where like minded people congregate to get creative, the Beeslicee Coffee Houses across India are embedded in not just local cultures, but also local homes.</p>
+            </div><br>
+            <div class="row d-flex flex-column justify-content-center" align="center">
+                <div class="col-sm-12">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/New_Project_19-1.webp" class="d-flex align-items-center" width="150px" height="100px">
+                </div><br><br>
+                <h3 class="text"><a href="#" class="text-dark text-decoration-none">India's Top 15 Artisanal Coffee Disruptors All Coffee Lovers Should Know About</a></h3><br>
+                <p class="text">“Beeslicee Coffee was established with the goal to create great and consistent coffee and share it with as many people as possible” — GQ India</p>
+            </div><br>
+        <div class="row d-flex flex-column justify-content-center" align="center">
+                <div class="col-sm-12">
+                    <img src="https://roasterycoffee.co.in/wp-content/uploads/2024/07/The-Hindu-Logo-e1721718069712-560x146.jpg" class="featin d-flex align-items-center">
+                </div><br>
+                <h3 class="text"><a href="#" class="text-dark text-decoration-none">Cascara is a coffee tea for real</a></h3><br>
+                <p class="text">Move over tea leaves, flowers and herbs, here is a tea that comes from coffee</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid bg-light">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-sm-3 mt-3">
+                    <img src="./logo.png" alt="beeslicee" width="140px">
+                    <hr>
+                    <h3 class="text">Contact</h3>
+                    <p class="text">Call:&nbsp;<a href="#" class="text-dark text-decoration-none">+91-XXXXXXXXXX</a></p>
+                    <p class="text">Email:&nbsp;<a href="#" class="text-dark text-decoration-none">support@beeslicee.co.in</a></p>
+                </div>
+                <div class="col-sm-3 mt-3">
+                    <h3 class="text">Company</h3>
+                    <div class="row">
+                        <a href="#" class="text-dark text-decoration-none">About Us</a>
+                        <a href="#" class="text-dark text-decoration-none">Media</a>
+                        <a href="#" class="text-dark text-decoration-none">Cafe Locations</a>
+                        <a href="#" class="text-dark text-decoration-none">Contect Us</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 mt-3">
+                    <h3 class="text">Our Policies</h3>
+                    <div class="row">
+                        <a href="#" class="text-dark text-decoration-none">TERMS & CONDITIONS</a>
+                        <a href="#" class="text-dark text-decoration-none">PRIVACY POLICY</a>
+                        <a href="#" class="text-dark text-decoration-none">SHIPPING POLICY</a>
+                        <a href="#" class="text-dark text-decoration-none">RETURN POLICY</a>
+                    </div>
+                </div>
+                <div class="col-sm-3 mt-3">
+                    <h3 class="text">Follow Us</h3>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="m-3" align="center">
+                    <p class="text">&copy; Copyright 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

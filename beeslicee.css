@@ -1,0 +1,52 @@
+.i{
+    transition: transform 0.7s ease;
+}
+
+.i:hover{
+    transform: rotate(-10deg) scale(1.2);
+}
+
+.logo{
+    width: 60px;
+}
+ 
+.custchk .form-check-input:checked{
+    background-color: wheat;
+    border-color: wheat;
+}
+
+.InputX {
+    width: 450px;
+}
+
+#feedback{
+    height: 140px;
+}
+
+.log{
+    height: 400px;
+}
+.h{
+    height: 140px;
+    background-color: wheat;
+}
+
+.brewimg{
+    width: 500px;
+    height: 500px;
+}
+
+.whybee{
+    width: 100px;
+    height: 100px;
+}
+
+.featin{
+    width: 300px;
+    height: 100px;
+}
+
+.newarr{
+    width: 300px;
+    height: 300px;
+}
